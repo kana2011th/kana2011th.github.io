@@ -2,57 +2,71 @@
 <html>
 
 <head>
-    <title>kana2011th - webport</title>
-    <meta name="twitter:creator" content="@kana2011th">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/main.min.css">
+  <title>kana2011th - webport</title>
+  <meta name="twitter:creator" content="@kana2011th">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/main.min.css">
 </head>
 
 <body>
-    <a id="kana--head-pin"></a>
-    <div class="kana-header" id="kana--header">
-        <div id="logo">
-            <img src="assets/pictures/kana2011th.png">
-        </div>
-        <p id="logo-motd" class="motd">khanaphon "kana" phaengtan</p>
-        <div class="inner">
-        </div>
+  <a id="kana--head-pin-01"></a>
+  <div class="kana__header" id="kana--header">
+    <div id="logo">
+      <img src="assets/pictures/kana2011th.png">
     </div>
-    <div class="kana-background background-full" id="kana--header-bg" style="background-image:url(assets/pictures/bg.jpg)">
-        <div class="kana-header just-spacer absolute" id="kana--header-bg-back"></div>
+    <p id="logo-motd" class="kana__header--motd">khanaphon "kana" phaengtan</p>
+  </div>
+  <div class="kana__background kana__background--full" id="kana--header-bg" style="background-image:url(assets/pictures/bg.jpg)">
+    <div class="kana__header kana__header--just-spacer kana__header--absolute" id="kana--header-bg-back">
+      <a id="kana--head-pin-02" class="put-top"></a>
     </div>
-    <div class="kana-header top p-0" align="right">
-        <a href="#" class="menu">MENU</a>
+  </div>
+  <div class="kana__header kana__menu-container kana__menu--nav p-0">
+    <div class="kana__menu" id="kana-menu">
+      <ul id="nav-menu">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">My works</a></li>
+      </ul>
     </div>
-    <div class="kana-nav-progress">
-        <div class="nav-progress">&nbsp;</div>
-        <div class="nav-progress--arrow"></div>
+    <a href="#" class="kana__menu--toggle" data-toggle="kana-menu">MENU</a>
+  </div>
+  <div class="kana__scrollbar">
+    <div class="kana__nav-progress">&nbsp;</div>
+    <div class="kana__nav-progress--arrow"></div>
+  </div>
+  <!-- <div class="kana-header just-spacer" ></div> -->
+  <a id="introduction-section" data-scroll-section="Introduction"></a>
+  <div class="kana__background">
+    <div class="kana__container">
+      <h1>Who are you!?</h1>
     </div>
-    <a id="kana--head-pin-2"></a>
-    <!-- <div class="kana-header just-spacer" ></div> -->
-    <div class="kana-background" id="introduction">
-        <div class="kana-container">
-            <h1>Who are you!?</h1>
-        </div>
+  </div>
+  <a id="skills-section" data-scroll-section="Skills"></a>
+  <div class="kana__background">
+    <div class="kana__container">
+      <h1>What you can do?</h1>
     </div>
-    <div class="kana-background">
-        <h1>What do you did?</h1>
+  </div>
+  <a id="works-section" data-scroll-section="My works"></a>
+  <div class="kana__background">
+    <div class="kana__container">
+      <h1>Who did you do!?</h1>
     </div>
-    <div class="kana-background">
-        <h1>What do you did?</h1>
-    </div>
-    <div class="kana-background">
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/main.min.js"></script>
-    <script src="assets/js/dancing.min.js"></script>
+  </div>
+  <div class="kana__background">
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="assets/js/main.min.js"></script>
+  <script src="assets/js/mobile.min.js"></script>
+  <script src="assets/js/maintween.min.js"></script>
 </body>
 
 </html>
